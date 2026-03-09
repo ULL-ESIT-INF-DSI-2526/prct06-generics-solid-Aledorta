@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020", "DOM"],
+    "strict": false,
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": [
+    "src/ejercicio-3/ejercicio-3.ts",
+    "src/ejercicio-2/ejercicio-2.ts"
+  ]
+}
