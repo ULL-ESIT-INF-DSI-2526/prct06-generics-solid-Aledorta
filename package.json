@@ -1,0 +1,40 @@
+{
+  "name": "prct06-generics-solid-aledorta",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ADpSsjL-) [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=22825853&assignment_repo_type=AssignmentRepo)",
+  "main": "index.js",
+  "scripts": {
+    "ej1": "tsc-watch --onSuccess \"node ./dist/ejercicio-1.js\"",
+    "ej2": "tsc-watch --onSuccess \"node ./dist/ejercicio-2.js\"",
+    "ej3": "tsc-watch --onSuccess \"node ./dist/ejercicio-3.js\"",
+    "ej4": "tsc-watch --onSuccess \"node ./dist/ejercicio-4.js\"",
+    "ej5": "tsc-watch --onSuccess \"node ./dist/ejercicio-5.js\"",
+    "ej6": "tsc-watch --onSuccess \"node ./dist/ejercicio-6.js\"",
+    "docs": "typedoc",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage --coverage.include='src/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2526/prct06-generics-solid-Aledorta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-INF-DSI-2526/prct04-arrays-tuples-enums-Aledorta/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2526/prct04-arrays-tuples-enums-Aledorta#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@vitest/coverage-v8": "^4.0.18",
+    "eslint": "^9.39.3",
+    "eslint-plugin-tsdoc": "^0.5.0",
+    "globals": "^17.3.0",
+    "tsc-watch": "^7.2.0",
+    "typedoc": "^0.28.17",
+    "typescript-eslint": "^8.56.1",
+    "vitest": "^4.0.18"
+  }
+}
