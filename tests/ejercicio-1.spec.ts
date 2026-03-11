@@ -1,4 +1,4 @@
-// http://127.0.0.1:8000/index.html
+// http://127.0.0.1:8000/docs/index.html
 // npx vitest run tests/ejercicio-3.spec.ts --coverage --coverage.include="src/ejercicio-3/**/*.ts"
 
 import { beforeEach, describe, expect, test } from "vitest";
