@@ -1,7 +1,7 @@
 {
   "entryPoints": [
-    "src/ejercicio-1/registroGalactico.ts",
-    "src/ejercicio-1/coleccionGalactica.ts"
+    "src/**/*.ts"
   ],
+  "tsconfig": "./tsconfig.typedoc.json",
   "out": "./docs"
 }
