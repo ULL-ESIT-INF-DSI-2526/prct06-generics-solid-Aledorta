@@ -1,7 +1,7 @@
 {
   "entryPoints": [
-    "src/ejercicio-3/ejercicio-3.ts",
-    "src/ejercicio-2/ejercicio-2.ts"
+    "src/ejercicio-1/registroGalactico.ts",
+    "src/ejercicio-1/coleccionGalactica.ts"
   ],
   "out": "./docs"
 }

@@ -1,3 +1,6 @@
+// http://127.0.0.1:8000/index.html
+// npx vitest run tests/ejercicio-3.spec.ts --coverage --coverage.include="src/ejercicio-3/**/*.ts"
+
 import { beforeEach, describe, expect, test } from "vitest";
 import { JediMasterCollection, StarshipCollection, HolocronCollection, Jedi, Starship, Holocron } from "../src/ejercicio-1/coleccionGalactica";
 import { Afilacion } from "../src/ejercicio-1/registroGalactico";
